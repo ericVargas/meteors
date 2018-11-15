@@ -12,6 +12,7 @@ body {
     background-color: #141929;
 }
 
+/*  TOP  */
 .container {
     width: 600px;
     margin: 0 auto;
@@ -23,10 +24,12 @@ h1 {
     font-size: 2.3rem;
 }
 
+/*  SCREEN  */
 .screen {
     width: 100%;
     height: 600px;
     border: 2px dotted #2b3b63;
+    cursor: crosshair;
 }
 
 #land {
@@ -44,6 +47,19 @@ h1 {
     top: 30%;
 }
 
+#how {
+    display: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: justify;
+    border: 2px dotted #fffff0;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}
+
+/*  BUTTONS  */
 .bDiv {
     padding: 20px;
     display: grid;
@@ -58,4 +74,6 @@ button {
     background-color: #fffff0;
 }
 
-
+button:hover {
+    cursor: cell;
+}
