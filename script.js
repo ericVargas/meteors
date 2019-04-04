@@ -19,4 +19,11 @@ function startG(){
     bHow.style.display = 'none';
     document.getElementById('land').id = 'game';
     bStart.style.display = 'none';
+    
+    let play = new MeteorMaker();
+    play.getMeteors(1);
+    play.printMeteors();
 }
+
+
+
